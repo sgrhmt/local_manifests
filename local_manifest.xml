@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="gh" fetch="https://github.com/" clone-depth="1" />
+
+    <!-- Trees -->
+    <project path="device/xiaomi/onclite" name="sgrhmt/los_dxo" remote="gh" revision="lineage-17.1" />
+    <project path="kernel/xiaomi/onclite" name="sgrhmt/los_kxo" remote="gh" revision="lineage-17.1" />
+    <project path="vendor/xiaomi/onclite" name="sgrhmt/los_vxo" remote="gh" revision="lineage-17.1" />
+
+    <!-- Extras -->
+    <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="lineage-17.1" />-->
+
+</manifest>
